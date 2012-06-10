@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<item android:titleCondensed="@string/item_category_register"
+		android:title="@string/item_category_register" android:id="@+id/id_item_category_register"
+		android:icon="@android:drawable/ic_menu_add"></item>
+
+	<item android:titleCondensed="@string/btn_download_category"
+		android:title="@string/btn_download_category" android:id="@+id/id_item_download_category"
+		android:icon="@android:drawable/ic_menu_set_as"></item>
+
+	<item android:titleCondensed="@string/btn_delete_txt"
+		android:title="@string/btn_delete_txt" android:id="@+id/id_item_delete"
+		android:icon="@android:drawable/ic_menu_delete"></item>
+
+</menu>

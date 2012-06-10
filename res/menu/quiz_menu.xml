@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:icon="@android:drawable/ic_menu_preferences"
+		android:id="@+id/id_item_preferences_quiz" android:title="@string/btn_preference_txt"
+		android:titleCondensed="@string/btn_preference_txt"></item>
+		
+	<item android:icon="@drawable/ic_menu_categories_selection"
+		android:id="@+id/id_item_category_quiz" android:title="@string/btn_category_txt"
+		android:titleCondensed="@string/btn_category_txt"></item>
+		
+	<item android:icon="@drawable/ic_menu_refresh" android:id="@+id/id_item_shuffle_quiz"
+		android:title="@string/btn_shuffle_txt" android:titleCondensed="@string/btn_shuffle_txt"></item>
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:id="@+id/textView1" android:text="@string/lbl_category_list_url"
+		android:layout_height="wrap_content" android:layout_width="match_parent"></TextView>
+
+
+
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/id_category_list_url"
+		android:maxLines="2"
+		android:minLines="2">
+		<requestFocus></requestFocus>
+	</EditText>
+	<Button android:layout_height="wrap_content" android:onClick="onButtonClicked"
+		android:layout_width="match_parent" android:layout_marginLeft="100dp"
+		android:layout_marginRight="100dp" android:layout_marginTop="10dp"
+		android:id="@+id/btn_save" android:text="@string/btn_save"></Button>
+</LinearLayout>
+

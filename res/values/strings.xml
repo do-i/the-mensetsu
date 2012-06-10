@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="light_blue">#A6B4E0</color>
+	<color name="light_green">#A6E0BC</color>
+	<color name="dark_brown">#3C3B37</color>
+	<color name="darker_brown">#2D2D2D</color>
+
+	<string name="app_name">Mensetsu</string>
+	<string name="btn_start_txt">Start</string>
+	<string name="btn_config_txt">Config</string>
+	<string name="btn_continue_txt">Continue</string>
+	
+	
+	<string name="btn_delete_txt">Delete</string>
+	<string name="btn_download_category">Download</string>
+	<string name="btn_download_questions">Download</string>
+	<string name="btn_save">Save</string>
+	<string name="btn_ok">Okay</string>
+
+	<string name="item_category_register">Register</string>
+	<string name="lbl_category_list_url">URL for category list file (Tab Separated Value).
+	</string>
+	<string name="lbl_category_title">Categories</string>
+	<string name="lbl_quiz_category">Quiz Question Answer Area</string>
+	<string name="lbl_question_category">Question Area</string>
+	<string name="lbl_font_size">Font Size</string>
+	<string name="lbl_color">Color</string>
+	<string name="lbl_max_count">Max Count</string>
+
+
+	<string name="msg_all_categories_deleted">All Categories are deleted.</string>
+	<string name="msg_download_in_progress">Download in progress. This may take several
+		seconds.</string>
+	<string name="msg_download_error">Error occured while downloading data file. Check if
+		the URL is valid. </string>
+	<string name="msg_sys_no_case_defined_error">There is no case defined error occured.</string>
+	<string name="msg_url_saved">URL is saved.</string>
+	<string name="msg_shuffle_completed">Shuffling is done.</string>
+	<string name="msg_shuffle_error">Error occured while shuffling questions.</string>
+	<string name="msg_at_last_question">Reached the last question.</string>
+	<string name="msg_at_first_question">Reached the first question.</string>
+	<string name="btn_preference_txt">Preference</string>
+	<string name="btn_category_txt">Category</string>
+	<string name="btn_shuffle_txt">Shuffle</string>
+	<string name="btn_next">Next</string>
+	<string name="btn_prev">Previous</string>
+	<string name="btn_answer">Answer</string>
+	
+	<string-array name="lst_font_size_display_items">
+		<item>Tiny</item>
+		<item>Small</item>
+		<item>Normal</item>
+		<item>Large</item>
+		<item>Huge</item>
+	</string-array>
+	<string-array name="lst_font_size_value_items">
+		<item>10</item>
+		<item>17</item>
+		<item>24</item>
+		<item>31</item>
+		<item>38</item>
+	</string-array>
+
+</resources>

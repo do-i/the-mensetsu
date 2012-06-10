@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/lbl_quiz_category">
+		<ListPreference android:title="@string/lbl_font_size"
+			android:key="fontSize" android:defaultValue="digiGreen"
+			android:entries="@array/lst_font_size_display_items"
+			android:entryValues="@array/lst_font_size_value_items" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/lbl_question_category"
+		android:selectable="true">
+
+		<EditTextPreference android:title="Max Count"
+			android:summary="Maximum number of questions in a quiz."
+			android:defaultValue="100" android:key="maxCount" />
+
+	</PreferenceCategory>
+</PreferenceScreen>

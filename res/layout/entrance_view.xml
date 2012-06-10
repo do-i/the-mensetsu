@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout1" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+			
+			<Button android:onClick="onButtonClicked" android:id="@+id/btn_config_id"
+			android:text="@string/btn_config_txt" android:layout_weight="1"
+			android:layout_height="0dp" android:layout_width="match_parent"
+			android:layout_gravity="center_horizontal" android:layout_marginLeft="25dp"
+			android:layout_marginRight="25dp" android:layout_marginTop="55dp"
+			android:layout_marginBottom="5dp"></Button>
+			
+			
+			<Button android:onClick="onButtonClicked" android:id="@+id/btn_start_id"
+			android:text="@string/btn_start_txt" android:layout_weight="1"
+			android:layout_height="0dp" android:layout_width="match_parent"
+			android:layout_gravity="center_horizontal" android:layout_marginLeft="25dp"
+			android:layout_marginRight="25dp" android:layout_marginTop="55dp"
+			android:layout_marginBottom="5dp"></Button>
+			
+			<Button android:onClick="onButtonClicked" android:id="@+id/btn_continue_id"
+			android:text="@string/btn_continue_txt" android:layout_weight="1"
+			android:layout_height="0dp" android:layout_width="match_parent"
+			android:layout_gravity="center_horizontal" android:layout_marginLeft="25dp"
+			android:layout_marginRight="25dp" android:layout_marginTop="55dp"
+			android:layout_marginBottom="5dp"></Button>
+	</LinearLayout>
+
+</LinearLayout>

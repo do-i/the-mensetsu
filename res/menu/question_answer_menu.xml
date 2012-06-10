@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:titleCondensed="@string/btn_download_questions"
+		android:id="@+id/id_item_download_question_answer"
+		android:icon="@android:drawable/ic_menu_set_as" android:title="@string/btn_download_questions"></item>
+
+	<item android:titleCondensed="@string/btn_delete_txt"
+		android:title="@string/btn_delete_txt" android:id="@+id/id_item_delete_question_answer"
+		android:icon="@android:drawable/ic_menu_delete"></item>
+
+</menu>
