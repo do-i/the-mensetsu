@@ -12,5 +12,9 @@
 bin/
 gen/
 
+# IDEA
+.idea/
+the-mensetsu.iml
+
 # Local configuration file (sdk path, etc)
 local.properties
